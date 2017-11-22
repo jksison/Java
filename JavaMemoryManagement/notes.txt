@@ -1,0 +1,29 @@
+VM Arguments:
+-Xmx50m 
+  -this tells the vm to allocate a maximum of 50MB heap memory
+-Xms10m
+  -sets the initial and minimum Java heap size
+-verbose:gc
+  -prints to the console when a garbage collection takes place
+-Xmn
+  -sets the size of the young generation
+  -recommended is a quarter of heap size
+-XX:HeapDumpOnOutOfMemory
+  -creates a heap dump file
+-XX:MaxPermSize=256M
+
+Types of collector:
+-XX:+UseSerialGC for serial
+-XX:+UseParallelGC for parallel (if machine has multiple processors)
+-XX:+UseConcMarkSweepGC
+-XX:+UseG1GC
+
+Memory leak
+- when 
+
+Heap Dump
+- can be used to find the memory leak
+- use memory analyzer tool and find the object that has the biggest size
+- read from bottom to top
+- {OBJECT_NAME} {PACKAGE_NAME}.{CLASS_NAME}
+- as long as the used memory in old generation does not grow in bounded look, there's no leak
