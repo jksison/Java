@@ -325,3 +325,27 @@ java.net.ConnectException: Connection refused: connect
 	at org.apache.catalina.startup.Bootstrap.stopServer(Bootstrap.java:337)
 	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
 
+Nov 21, 2017 9:01:48 PM org.apache.catalina.core.AprLifecycleListener init
+INFO: The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files (x86)\Intel\OpenCL SDK\2.0\bin\x64;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_144\bin;C:\apache\apache-maven-3.5.0-bin\apache-maven-3.5.0\bin;C:\Users\Geneviev\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Geneviev\AppData\Local\Microsoft\WindowsApps;C:\Users\Geneviev\AppData\Roaming\npm;C:\Users\Geneviev\AppData\Roaming\nvm;C:\Program Files\nodejs;.
+Nov 21, 2017 9:01:48 PM org.apache.coyote.http11.Http11Protocol init
+INFO: Initializing Coyote HTTP/1.1 on http-8080
+Nov 21, 2017 9:01:48 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 647 ms
+Nov 21, 2017 9:01:48 PM org.apache.catalina.core.StandardService start
+INFO: Starting service Catalina
+Nov 21, 2017 9:01:48 PM org.apache.catalina.core.StandardEngine start
+INFO: Starting Servlet Engine: Apache Tomcat/6.0.20
+Nov 21, 2017 9:01:48 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive mywebapp.war
+Nov 21, 2017 9:01:57 PM org.apache.coyote.http11.Http11Protocol start
+INFO: Starting Coyote HTTP/1.1 on http-8080
+Nov 21, 2017 9:01:57 PM org.apache.jk.common.ChannelSocket init
+INFO: JK: ajp13 listening on /0.0.0.0:8009
+Nov 21, 2017 9:01:57 PM org.apache.jk.server.JkMain start
+INFO: Jk running ID=0 time=0/45  config=null
+Nov 21, 2017 9:01:57 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 9307 ms
+Nov 21, 2017 9:02:37 PM org.apache.catalina.startup.HostConfig checkResources
+INFO: Undeploying context [/mywebapp]
+Nov 21, 2017 9:02:38 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive mywebapp.war

@@ -128,3 +128,15 @@ Nov 21, 2017 8:58:28 PM org.apache.catalina.core.ApplicationContext log
 INFO: Initializing Spring root WebApplicationContext
 Nov 21, 2017 8:58:29 PM org.apache.catalina.core.ApplicationContext log
 INFO: Initializing Spring FrameworkServlet 'Dispatcher'
+Nov 21, 2017 9:01:53 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Nov 21, 2017 9:01:54 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'Dispatcher'
+Nov 21, 2017 9:02:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: Destroying Spring FrameworkServlet 'Dispatcher'
+Nov 21, 2017 9:02:37 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Nov 21, 2017 9:02:48 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring root WebApplicationContext
+Nov 21, 2017 9:02:49 PM org.apache.catalina.core.ApplicationContext log
+INFO: Initializing Spring FrameworkServlet 'Dispatcher'
