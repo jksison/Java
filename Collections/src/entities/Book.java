@@ -1,6 +1,6 @@
 package entities;
 
-public class Book {
+public class Book implements Comparable<Book> {
 	public int id;
 	public String name, author, publisher;
 	public int quantity;
@@ -11,5 +11,15 @@ public class Book {
 		this.author = author;
 		this.publisher = publisher;
 		this.quantity = quantity;
+	}
+
+	public int compareTo(Book b) {
+		if (id > b.id) {
+			return 1;
+		} else if (id < b.id) {
+			return -1;
+		} else {
+			return 0;
+		}
 	}
 }

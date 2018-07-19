@@ -16,7 +16,7 @@ public class TestCollection3 {
 		al.add(s1);// adding Student class object
 		al.add(s2);
 		al.add(s3);
-		
+
 		// Getting Iterator
 		Iterator<Student> itr = al.iterator();
 		// traversing elements of ArrayList object
